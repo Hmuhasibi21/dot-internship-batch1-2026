@@ -1,28 +1,58 @@
-# DOT Malang Kuy Batch 1 2026 - Frontend Challenge
+# DOT Malang Kuy 2026 Batch 1 - Challenge Frontend React.js
 
-Aplikasi Kuis Interaktif berbasis React.js yang dibuat untuk tantangan DOT Malang Kuy 2026 Batch 1. Aplikasi ini mengambil soal dari OpenTDB API dan dilengkapi dengan fitur Leaderboard serta Timer.
+![Vercel Deployment](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel&style=for-the-badge)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+Aplikasi Kuis Interaktif yang dikembangkan sebagai submission untuk **Challenge Frontend React.js DOT Malang 2026**. Aplikasi ini terintegrasi dengan OpenTDB API, memiliki fitur Leaderboard, manajemen waktu, dan desain yang responsif.
+
+## 🔗 Link Demo & Repository
+
+| Platform | Link Akses |
+| :--- | :--- |
+| **🚀 Live Demo (Vercel)** | [**Klik di sini untuk mencoba aplikasi**](https://dot-internship-batch1-2026.vercel.app/) |
+| **📂 Repository GitHub** | [**Lihat Source Code**](https://github.com/Hmuhasibi21/dot-internship-batch1-2026) |
 
 ## 🚀 Fitur Unggulan
 
-- **Manajemen Waktu**: Timer otomatis (30 detik) per soal.
-- **Sistem Skor & Leaderboard**:
-  - Menyimpan skor tertinggi di Local Storage.
-  - Sorting otomatis berdasarkan skor tertinggi dan waktu tercepat.
-  - Fitur **Hapus Riwayat** dengan konfirmasi pop-up.
-- **Resume Session**: Menyimpan progres kuis jika browser tertutup tidak sengaja.
-- **Review Jawaban**: Melihat detail jawaban benar dan salah di akhir sesi.
-- **Responsive Design**: Tampilan optimal di Desktop dan Mobile.
+1. **Dynamic Quiz System**:
+   - Mengambil soal secara realtime dari OpenTDB API (Difficulty: Medium).
+   - Tipe soal Multiple Choice dengan pengacakan jawaban otomatis.
+
+2. **Advanced Timer & Scoring**:
+   - Batas waktu **30 detik** per soal.
+   - Auto-submit jika waktu habis.
+   - Penilaian otomatis di akhir sesi.
+
+3. **Leaderboard System (Local Storage)**:
+   - Menyimpan riwayat skor tertinggi pengguna di browser.
+   - Sorting otomatis berdasarkan **Skor Tertinggi** lalu **Waktu Tercepat**.
+   - Fitur **Hapus Riwayat** (Clear Leaderboard) dengan pop-up konfirmasi yang aman.
+   - Data persisten (tidak hilang saat refresh atau ganti akun).
+
+4. **Smart Session Management**:
+   - Fitur **Resume Kuis**: Jika browser tertutup atau di-refresh, user bisa melanjutkan soal terakhir yang dikerjakan tanpa kehilangan progres.
+   - Pop-up konfirmasi sesi aktif di halaman login.
+
+5. **Interactive UI/UX**:
+   - Desain Responsif (Mobile Friendly & Desktop).
+   - Animasi **Falling Emojis** (tema edukasi) di background.
+   - Halaman Review Jawaban (Benar/Salah) beserta kunci jawaban di akhir kuis.
+   - Feedback visual saat jawaban benar/salah.
 
 ## 🛠 Tech Stack
 
-- **React.js** (Vite)
-- **Tailwind CSS** (Styling)
-- **Lucide React** (Icons)
-- **Axios** (API Fetching)
-- **React Router DOM** (Navigation)
+- **Core**: React.js (Vite)
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **HTTP Client**: Axios
+- **Routing**: React Router DOM
+- **State Management**: React Hooks (useState, useEffect, useRef) & LocalStorage
 
-## 📦 Instalasi & Menjalankan Project
+## 📦 Cara Menjalankan Project (Lokal)
 
-1. Clone repository ini:
+Jika ingin menjalankan project ini di komputer lokal Anda:
+
+1. **Clone Repository**
    ```bash
    git clone [https://github.com/Hmuhasibi21/dot-internship-batch1-2026.git](https://github.com/Hmuhasibi21/dot-internship-batch1-2026.git)

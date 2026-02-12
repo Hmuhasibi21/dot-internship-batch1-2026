@@ -56,3 +56,11 @@ Jika ingin menjalankan project ini di komputer lokal Anda:
 1. **Clone Repository**
    ```bash
    git clone [https://github.com/Hmuhasibi21/dot-internship-batch1-2026.git](https://github.com/Hmuhasibi21/dot-internship-batch1-2026.git)
+
+   👨‍💻 Author
+<div align="left">
+ABDUL HARIS MUHASIBI
+Frontend Engineer Candidate
+DOT Malang 2026
+</div>
+Copyright © 2026 Abdul Haris Muhasibi. All Rights Reserved.
